@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box; 
+}
+
+body {
+   font-family: Arial;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   justify-content: flex-start;
+   background: coral;
+}
+
+.reset-button {
+   font-size: 16px;
+   height: 40px;
+   line-height: 8px;
+   margin-top: 20px;
+}
+
+.win-loss-container {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 18px;
+}
+
+button {
+   background: green;
+   border-radius: 8px;
+   color: aliceblue;
+   cursor: crosshair;
+   font-size: 20px;
+   letter-spacing: 0.4px;
+   line-height: 16px;
+   max-width: 255px;
+   padding: 20px 50px;
+   text-align: center;
+   transition-duration: 0.15s;
+   transition-property: background-color;
+   transition-timing-function: linear;
+   margin-top: 0.6em;
+}
+
+header {
+   padding: 40px;
+   text-align: center;
+   background: cornflowerblue;
+   color: aliceblue;
+   border-bottom: 30px pink;
+
+   background: cornflowerblue;
+   color: aliceblue;
+   border-bottom: 30px cornsilk;
+}
+
+main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+section {
+   flex: 0 auto;
+   padding: 8px;
+   margin-top: 50px;
+   background-color: aquamarine;
+   border-radius: 8px;
+}
+.word-guess {
+   width: 54vw;
+   height: 400px;
+}
+
+.results {
+   width: 30vw;
+   height: 400px;
+}
+
+.card {
+   background: radial-gradient(circle, pink);
+   border: 1px solid pink;
+   border-radius: 8px;
+   box-shadow: black 0 2px 4px 0;
+   margin: auto;
+   padding: 20px;
+}
+
+.word-blanks {
+ line-height: 360px;
+}
+
+.large-font {
+   font-size: 3.5em;
+   text-align: center;
+}
+
+.timer {
+   height: 240px;
+   padding: 10px;
+   background: red;
+   color: aquamarine;
+   text-align: center;
+}
+
+.timer-text {
+   padding: 55px;
+ }
+ 
+ @media screen and (max-width: 1183px) {
+   main {
+     flex-direction: column;
+   }
+ 
+   .word-guess,
+   .results {
+     width: 90vw;
+   }
+ 
+   section {
+     background-color: white;
+     margin: 20px auto;
+     width: 92vw;
+   }
+ }
+ 
+ @media screen and (max-width: 504px) {
+   .large-font {
+     font-size: 2em;
+   }
+ 
+   .reset-button {
+     font-size: 12px;
+     width: 20px;
+   }
+ 
+   .timer {
+     height: 200px;
+   }
+}
+
+.hide {
+   display: none;
+}
+
+.show {
+   display: block;
+}
