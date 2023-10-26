@@ -10,8 +10,11 @@ if its wrong I will see a red "incorrect" notification.
 When answered incorrectly I will lose 5 seconds in time.
 When all the questions are over the game will be over, I will then be requested to enter my initials and receive a score.
 I have also linked my github account. The portfolio will be updated as I complete further projects. I have provided clickable links that will take you to certain sections of my page and also if you click on boxes there will be links to my previous projects.
+github link;
+https://github.com/Grahamy27/week4_design_a_quiz_Graham
 
-
+deployed page link;
+https://grahamy27.github.io/week4_design_a_quiz_Graham/
 
 
 
